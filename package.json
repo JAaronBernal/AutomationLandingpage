@@ -1,0 +1,34 @@
+{
+  "name": "automationlandingpage",
+  "version": "1.0.0",
+  "description": "Landingpage",
+  "main": "index.js",
+  "scripts": {
+    "cypress:runner": "cypress open",
+    "cypress:execution": "cypress run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JAaronBernal/AutomationLandingpage.git"
+  },
+  "author": "TAE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JAaronBernal/AutomationLandingpage/issues"
+  },
+  "homepage": "https://github.com/JAaronBernal/AutomationLandingpage#readme",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.8.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-plugin-tab": "^1.0.5",
+    "esbuild": "^0.17.11",
+    "multiple-cucumber-html-reporter": "^3.3.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.4"
+  }
+}
